@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Places tracker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="css/shop-item.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Places Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+          <ul class="navbar-nav ml-auto">
+              <form id="search-bar-form" class="form-inline">
+                  <input class="form-control" type="search" placeholder="buscar sitio" name="query"><!-- Eliminar valor de ejemplo -->
+                  <input class="form-control" type="submit" value="Buscar">
+                </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3">
+
+          <h2 class="my-4">Categorias</h2>
+          <div class="list-group" id="search-categories">
+            <a href="#" class="list-group-item" category-id="restaurant">Restaurant</a>
+            <a href="#" class="list-group-item" category-id="gym">Gym</a>
+            <a href="#" class="list-group-item" category-id="museum">Museum</a>
+            <a href="#" class="list-group-item" category-id="movie_theater">Movie theather</a>
+            <a href="#" class="list-group-item" category-id="night_club">Night club</a>
+          </div>
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+          <h2 class="my-4">Places</h2>
+          <div id="results-section" class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Place One</a>
+                  </h4>
+                  <p><strong>Direccion 1</strong></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+      <!-- /.row -->
+
+      <!-- VISTA ITEM -->
+      <div class="col-lg-9" id="place-details-section">
+        <h2 class="my-4">Place details</h2>
+        <div class="card mt-4">
+          <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+          <div class="card-body">
+            <div><h3 class="card-title">Place Name</h3>
+            <span class="text-warning" style="float:right;">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+        </div>
+            <p>
+              <strong>Direccion 1</strong>
+            </p>
+              <ul>
+                <li>098-098-098</li>
+                <li><span class="text-success">Open</span> - <span class="text-danger">Close</span></li>
+                <li><a href="#">Website</a></li>
+              </ul>
+
+          </div>
+        </div>
+        <!-- /.card -->
+
+        <div class="card card-outline-secondary my-4">
+          <div class="card-header">
+            Place Reviews
+          </div>
+          <div class="card-body">
+            <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              4.0 stars
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <hr>
+            <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              4.0 stars
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <hr>
+            <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              4.0 stars
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <hr>
+          </div>
+        </div>
+        <!-- /.card -->
+
+      </div>
+
+      <!-- / VISTA ITEM -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <script src="index.js"></script>
+
+  </body>
+
+</html>
