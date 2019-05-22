@@ -1,3 +1,3 @@
-const GOOGLE_KEY = 'AIzaSyCTeRlsZhfWmdV4O_ipSPOhKGJ5EZMmQXI';
+const GOOGLE_KEY = 'your_key';
 
 export default GOOGLE_KEY;
